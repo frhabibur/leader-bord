@@ -1,0 +1,40 @@
+#list{
+    margin: auto;
+    width:100%;
+    background-color: white;
+    margin-top:50px;
+    box-shadow: -2px 2px 6px #e3dfdf;
+    border-radius: 10px;
+    padding:10px 0;
+   
+    
+}
+#list li{
+    border-bottom:1px solid rgb(212, 211, 211);
+    list-style: none;
+    margin-left: 20px;
+}
+#add-button,#incrise-button{
+    padding:10px 15px;
+    background-color: tomato;
+    border-radius: 5px;
+    outline: none;
+    color:white;
+    border: none;
+    /* margin-top:20px;
+    margin-left:200px; */
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 100px;
+
+}
+#input{
+    width:90%;
+    padding:10px 0px;
+    background-color: white;
+    outline: none;
+    border: none;
+    border:1px solid lightgray;
+    font-size: 20px;
+    padding-left:5px;
+}

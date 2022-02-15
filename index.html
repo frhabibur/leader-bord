@@ -9,6 +9,7 @@
     <script src="https://kit.fontawesome.com/d6b6e5d375.js" crossorigin="anonymous"></script>
     <!-- style sheet -->
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/ulstyle.css">
     <title>Leader Bord</title>
 </head>
 
@@ -25,7 +26,7 @@
     <main>
         <!-- top player section and top blogs start-->
         <section class="container">
-            <h2 class="section-title">Top Player</h2>
+            <h2 id='top-player-title' class="section-title">Top Player</h2>
             <div class="top-players ">
                 <div class="players">
                     <div class="single-player">
@@ -56,7 +57,7 @@
             </div>
             <hr>
             <div class="top-blog">
-                <h2 class="section-title">Top Blog</h2>
+                <h2 id="top-blog-title" class="section-title">Top Blog</h2>
                 <div class="blogs">
                     <article class="single-blog">
                         <div class="thumbnial">
@@ -187,6 +188,21 @@
         <!-- Lates Course end -->
 
     </main>
+    <footer style="width:950px;margin:auto">
+        <ul id="list">
+            <li>item-1</li>
+            <li>item-2</li>
+            <li>item-3</li>
+
+        </ul>
+        <button id="add-button">Add li</button>
+        <div>
+            <input type="text" name="" id="input" placeholder="Value" value="0">
+            <button id="incrise-button">Value+</button>
+        </div>
+    </footer>
+    <!-- includes js file  -->
+    <script src="js/app.js"></script>
 </body>
 
 </html>
